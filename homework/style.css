@@ -1,0 +1,74 @@
+li{ 
+ display: inline-block;}
+
+body {
+	background-image: url("Sunny-Bright-Day.jpg");
+	font-family: Arial;
+    text-align: center;
+}
+
+
+header {
+	margin: auto;
+    border-left: 150px;
+	background-color: skyblue;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Impact;
+	height: 120px;
+	color: black;
+}
+
+    
+a:hover {
+ color: #84afe1;
+ text-decoration: none; 
+ }
+
+ a { 
+ 
+ color:#273b4a ;
+ text-decoration: none;
+ top: 20px;
+ left: 50px;
+ }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+	font-family: Impact;
+	font-size: 36;
+	
+}
+
+nav {
+	margin: auto;
+	top: 10px;
+    width: 800px;
+	
+}
+
+
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+	background-color: darkgrey;
+	margin: 10px;
+	top: 50px;
+	left: 50px;
+	border-radius: 5px;
+}
+	
+h1 {
+	line-height: 100px;
+	font-size: 40pt;
+}	
+
