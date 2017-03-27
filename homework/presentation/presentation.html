@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title> Presentation</title>
-        <meta name="viewport" content="width=devide-width">
-    </head>
-    
-    
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li> Home</li>
-                    <li><a href="homework/homework.html"> Homework</a></li>
-                    <li><a href="http://kevwhitt.github.io/cit230-design-assessment.html" > Design Principles Assessment</a></li>
-                    <li><a href="homework/siteplan.html"> Site Plan </a></li>
-                    <li><a href="homework/fweatherpage.html">Weather Page</a></li>
-                    <li><a href="homework/greenville.html"> Greenville Weather page</a></li>
-                </ul>
-                
-                <h1> Nested and Listed Descriptions </h1>
-            </nav>
+    <meta charset="utf-8">
+    <title> Presentation</title>
+    <meta name="viewport" content="width=devide-width">
+    <link a href="presentation.css" rel="stylesheet">
+</head>
 
-        </header>
-        
-        <main>
-        
-            <section>
-                <p> Just about anything fits in a list, from sets of instructions to collections of links. You can create subcategories by nesting lists within lists
-                    So basically nested lists are list inside lists.
-                </p>
-                    <img src="nestedlists.com" alt="this is an example of what a nested list looks like in code ">
+
+<body>
+    <header>
+
+
+        <h1> Nested and Description Lists </h1>
+
+    </header>
+
+    <main>
+
+        <section class="sec1">
+            <h2> Nested Lists</h2>
+            <p> Just about anything fits in a list, from sets of instructions to collections of links. You can create subcategories by nesting lists within lists So basically nested lists are list inside lists.
+            </p>
+            <p> This is an example of what the nested list looks like in code</p>
+            <img src="nestedlist.jpg" alt="this is an example of what a nested list looks like in code ">
             
-                
+            <h3> The Basics </h3>
+            <ul>
+                <li> All nested lists follow the same markup pattern </li>
+                <ul>
+                    <li>Each list item in the top-level ordered list is followed by a complete second-level list </li>
+                    <li> The second level lists sit inside the top-level list, not in the list items.</li>
+                </ul>
+                <li> Nested Lists use the basic list tags</li>
+            </ul>
             
-            </section>
-        
-        
-        
-        </main>
-    
-    
-    
-    
-    
-    </body>
+            <p> This is what a Nested list would look like in the broswer</p><img src="nestedbrowser.jpg" alt="example of what it would look like in browser">
+            
+            <h3> Most Common Uses</h3>
+            <ul> 
+                <li>Site Maps and other navigation tools</li>
+                <li> Tables of content for online books and papers</li>
+                <li> Outlines</li>
+                <li> To do lists </li>
+            </ul>
+        </section>
+
+        <section class="sec2"> 
+            <h2> Description Lists </h2>
+            <p> A Description list is a list of terms, with a description of each term.</p>
+            <p> Description lists don't use the basic list tags,there are specific ones that you use when you are making a descripiton list</p>
+            
+            <ul>
+                <li> Tags</li>
+                <ul> 
+                    <li> dl tag defines the description list </li>
+                    <li> dt tag defines the term(name)</li>
+                    <li> dd tag describes each term</li>
+                </ul>
+            </ul>
+            <p> This is what it would look like in the code.</p>
+            <img src="description%20list.jpg" alt="code view">
+            
+            <p> This is what it would look like in the browser </p>
+            <img src="inbrowser.jpg" alt="broswer view">
+            
+            <h3> Most Common Uses</h3>
+                <ul>
+                    <li> Online Restaurant Menus</li>
+                    <li> Product Descriptions</li>
+                    <li> Site Purposes, and info </li>
+            </ul>
+            
+        </section>
+
+
+    </main>
+
+
+
+
+
+</body>
 </html>
