@@ -4,6 +4,14 @@ body {
     background-image: url(Sunny-Bright-Day.jpg);
 }
 
+#body2 {
+ font-family: akko rounded std;
+    font-size: 14pt;
+    background-image: url(afternoon.jpg);
+}
+
+
+
 header{
     text-align: center;
     
