@@ -73,8 +73,9 @@ h1 {
     }
 }
 
-@media only screen and (max-width:375px){
-    nav {
-        display: inline-block;
+
+@media only screen and (max-width: 770px){
+    ul {
+        color: deeppink;
     }
 }
