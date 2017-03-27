@@ -1,7 +1,7 @@
 body {
-    font-family: Impact;
+    font-family: akko rounded std;
     font-size: 14pt;
-    background-image: url("rain.jpg");
+    background-image: url(Sunny-Bright-Day.jpg);
 }
 
 header{
@@ -16,6 +16,16 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1152px;
+}
+
+footer {
+     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1152px;
+    
 }
 section {
     flex: 1;
@@ -51,8 +61,20 @@ h1 {
     font-size: 32pt;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
     table {
         display: none;
 }
+}
+
+@media only screen and (max-width:375px) {
+    #data {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:375px){
+    nav {
+        display: inline-block;
+    }
 }
