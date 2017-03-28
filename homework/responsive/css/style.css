@@ -50,7 +50,7 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-    background: url("/responsive/images/smallgc.jpg") left top no-repeat, url("/responsive/images/smallnps.png") left top no-repeat;
+    background: url("/homework/responsive/images/smallgc.jpg") left top no-repeat, url("/homwework/responsive/images/smallnps.png") left top no-repeat;
    
 }
 
@@ -174,7 +174,7 @@ h1 {
 	}
 	/*	Background Images - Use with medium screens */
 	.page-header {
-        background-image: url("/responsive/images/mediumgc.jpg"), url("/responsive/images/mediumnps.png");
+        background-image: url("/homework/responsive/images/mediumgc.jpg"), url("/homework/responsive/images/mediumnps.png");
         background-repeat: no-repeat;
         background-position: left top, right top;
         
@@ -224,7 +224,7 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-        background-image: url("/responsive/images/largegc.jpg"), url("/responsive/images/largenps.png");
+        background-image: url("/homework/responsive/images/largegc.jpg"), url("/homework/responsive/images/largenps.png");
         background-repeat: no-repeat;
         background-position: left top, right top;
     }
