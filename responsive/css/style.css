@@ -50,7 +50,8 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-    background-image: url("images/grand-canyonsmall.jpg");
+    background: url("/responsive/images/smallgc.jpg") left top no-repeat, url("/responsive/images/smallnps.png") left top no-repeat;
+   
 }
 
 
@@ -173,7 +174,10 @@ h1 {
 	}
 	/*	Background Images - Use with medium screens */
 	.page-header {
-        background-image: url("grandcanyonmedium.jpg");
+        background-image: url("/responsive/images/mediumgc.jpg"), url("/responsive/images/mediumnps.png");
+        background-repeat: no-repeat;
+        background-position: left top, right top;
+        
     }
 	.page-nav {
 		position: relative;
@@ -220,7 +224,9 @@ h1 {
 	}
 	/*	Background Images - Use with large screens */
 	.page-header {
-        background-image: url("grand-canyonlarge.jpg");
+        background-image: url("/responsive/images/largegc.jpg"), url("/responsive/images/largenps.png");
+        background-repeat: no-repeat;
+        background-position: left top, right top;
     }
 	.page-nav li {
 		flex: 0 1 10%;
