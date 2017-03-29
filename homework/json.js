@@ -28,7 +28,7 @@
      
      function ajaxFromApi (){
            $.ajax({
-                url :"https://api.wunderground.com/api/3489dffa70c1ada5/geolookup/conditions/q/ID/Rexburg.json",
+                url:"https://api.wunderground.com/api/3489dffa70c1ada5/geolookup/conditions/q/ID/Rexburg.json",
                 dataType : "jsonp",
                success : function(parsed_json) {
                 var location = parsed_json['location']['city'];
