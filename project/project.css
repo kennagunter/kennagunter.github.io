@@ -1,0 +1,118 @@
+body {
+    font-family: arial;
+    font-size: 16pt; 
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+     
+}
+
+h1 {
+    text-align: center;
+    font-family: strasua;
+}
+
+header {
+  background-image: url(smartside.jpg);\
+    background-repeat: no-repeat;
+}
+
+.link {
+    width:10px;
+    height:10px;
+    border:0;
+}
+
+img {
+    width: 270px;
+    height: 250px;
+    border: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+   
+}
+
+.imghead {
+    
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+     position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:strasua;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        
+    }
+    
+    img {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    
+    li a {
+        display: block;
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and(max-width:768px ){
+    img{
+        padding-left: 40px;
+    }
+}
+    
+@media only screen and(max-width:1500px){
+    body {
+        padding-left: 300px;
+        padding-top: 300px;
+    }
+}
