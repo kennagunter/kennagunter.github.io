@@ -12,8 +12,8 @@ h1 {
 }
 
 header {
-  background-image: url(smartside.jpg);\
-    background-repeat: no-repeat;
+  background-image: url(smartside.jpg);
+ background-repeat: no-repeat;
 }
 
 button {
@@ -91,8 +91,8 @@ footer {
 
 .featured-video {
 	display: block;
-	width: 270;
-	height: 250;
+	width: 270px;
+	height: 250px;
     direction: inherit;
 }
 
@@ -125,14 +125,13 @@ footer {
 }
 
 @media only screen and(max-width:768px ){
-    img{
+    img {
         padding-left: 40px;
     }
-}
+
     
 @media only screen and(max-width:1500px){
     body {
         padding-left: 300px;
         padding-top: 300px;
     }
-}
