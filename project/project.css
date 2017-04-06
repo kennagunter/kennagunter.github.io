@@ -124,15 +124,15 @@ footer {
     
 }
 
-@media only screen and(max-width:768px ){
+@media only screen and(max-width:768px){
     img{
-        padding-left: 40px;
+        padding-left:40px;
     }
 }
     
     @media only screen and(max-width:1500px){
     body{
-        padding-left: 300px;
-        padding-top: 300px;
+        padding-left:300px;
+        padding-top:300px;
         }
     }
