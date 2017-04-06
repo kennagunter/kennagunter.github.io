@@ -128,10 +128,11 @@ footer {
     img {
         padding-left: 40px;
     }
-
+}
     
-@media only screen and(max-width:1500px){
+    @media only screen and(max-width:1500px){
     body {
         padding-left: 300px;
         padding-top: 300px;
+        }
     }
