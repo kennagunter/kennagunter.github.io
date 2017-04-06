@@ -1,0 +1,89 @@
+body {
+    font-family: akko rounded std;
+    font-size: 14pt;
+    background-image: url(Sunny-Bright-Day.jpg);
+}
+
+#body2 {
+ font-family: akko rounded std;
+    font-size: 14pt;
+    background-image: url(afternoon.jpg);
+}
+
+
+
+header{
+    text-align: center;
+    
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1152px;
+}
+
+footer {
+     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1152px;
+    
+}
+section {
+    flex: 1;
+    background-color: whitesmoke;
+    width: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    margin: 0 auto;
+    max-width: 1152px;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+@media only screen and (max-width: 375px) {
+    table {
+        display: none;
+}
+}
+
+@media only screen and (max-width:375px) {
+    #data {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    ul {
+        color: deeppink;
+    }
+}

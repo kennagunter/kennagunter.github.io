@@ -1,0 +1,7 @@
+function getData(theimageclicked){
+
+$.ajax(
+{
+
+})
+}

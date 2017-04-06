@@ -4,9 +4,6 @@ body {
     background-image: url(back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
-
-     
 }
 
 h1 {
@@ -19,6 +16,10 @@ header {
     background-repeat: no-repeat;
 }
 
+button {
+    border: 0;
+    
+}
 .link {
     width:10px;
     height:10px;
@@ -88,6 +89,13 @@ footer {
     text-decoration: none;
 }
 
+.featured-video {
+	display: block;
+	width: 270;
+	height: 250;
+    direction: inherit;
+}
+
 @media only screen and (max-width: 320px) {
     body {
         
@@ -96,12 +104,24 @@ footer {
     img {
         padding-left: 20px;
         padding-top: 30px;
+        width: 180px;
+        height: 160px;
     }
     
     li a {
         display: block;
         padding: 8px 16px;
     }
+}
+
+@media only screen and (max-width: 375px){
+    img{
+        padding-left:30px;
+        padding-top: 20px;
+        height:180px;
+        width:200px;
+    }
+    
 }
 
 @media only screen and(max-width:768px ){

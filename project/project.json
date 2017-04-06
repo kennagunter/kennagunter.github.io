@@ -1,0 +1,39 @@
+{
+    "Hardiplank": {
+        "Material": "Fiber Cement",
+        "Description": "made partly of wood and partly of cement",
+        "Safe": "non toxic chemicals are used in manufacturing",
+        "Instructions on cost": "We pay for the siding at the price listed below but there is no specific cost because we charge for labor and based on how much square feet we are working on",
+        
+        "Cost": {
+            "Low-end": "$4.28 per Square foot",
+            "High-end":"$6.30 per Square foot "
+        } 
+    }, 
+    
+    "Seemless Steel": {
+        "Material": "Steel",
+        "Description": "This siding is the same material as vinyl it just doesn't have any seems in the middle of you wall",
+        "Safe":"Yes, and very long lasting",
+        "Info on cost":"We pay for the siding at the price listed below but there is no specific cost because we charge for labor and based on how much square feet we are working on- it just depends on circumstance",
+        
+        "Cost": {
+            "Low-end": "$3.95 per square foot",
+            "High-end": "$7.20 per square foot",
+        }
+    },
+    
+    "Vinyl": {
+        "Material": "PVC Material",
+        "Description": "Affordable, and looks great, and is long lasting.",
+        "Safe": "Yes",
+        "Info on cost": "We pay for the siding at the price listed below but there is no specific cost because we charge for labor and based on how much square feet we are working on",
+        "Cost": {
+            "Low-end": "$0.45 per square foot",
+            "High-end": "$1.90 per square foot",
+        }
+    },
+    
+    
+
+    
